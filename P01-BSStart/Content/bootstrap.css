@@ -6041,11 +6041,11 @@ textarea.form-control-lg {
   position: relative;
   display: none;
   float: left;
-  width: 100%;
+  width: 60%; /* 100% */
   margin-right: -100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  transition: transform 0.6s ease-in-out;
+  transition: transform 1s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
@@ -6056,7 +6056,8 @@ textarea.form-control-lg {
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev {
-  display: block;
+    display: block;
+    width: 60%; /**/
 }
 
 .carousel-item-next:not(.carousel-item-start),
